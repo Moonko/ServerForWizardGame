@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF51762E18F68FFE007BBF9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51762D18F68FFE007BBF9C /* Cocoa.framework */; };
+		CF51763018F68FFE007BBF9C /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51762F18F68FFE007BBF9C /* SpriteKit.framework */; };
+		CF51763A18F68FFE007BBF9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF51763818F68FFE007BBF9C /* InfoPlist.strings */; };
+		CF51763C18F68FFE007BBF9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51763B18F68FFE007BBF9C /* main.m */; };
+		CF51764018F68FFE007BBF9C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF51763E18F68FFE007BBF9C /* Credits.rtf */; };
+		CF51764218F68FFE007BBF9C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF51764118F68FFE007BBF9C /* MainMenu.xib */; };
+		CF51764418F68FFE007BBF9C /* MKMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51764318F68FFE007BBF9C /* MKMyScene.m */; };
+		CF51764718F68FFE007BBF9C /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51764618F68FFE007BBF9C /* MKAppDelegate.m */; };
+		CF51764A18F68FFE007BBF9C /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = CF51764918F68FFE007BBF9C /* Spaceship.png */; };
+		CF51764C18F68FFE007BBF9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF51764B18F68FFE007BBF9C /* Images.xcassets */; };
+		CF51765318F68FFE007BBF9C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51765218F68FFE007BBF9C /* XCTest.framework */; };
+		CF51765418F68FFE007BBF9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51762D18F68FFE007BBF9C /* Cocoa.framework */; };
+		CF51765C18F68FFE007BBF9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF51765A18F68FFE007BBF9C /* InfoPlist.strings */; };
+		CF51765E18F68FFE007BBF9C /* ServerForWizardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51765D18F68FFE007BBF9C /* ServerForWizardGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF51765518F68FFE007BBF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF51762218F68FFE007BBF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF51762918F68FFE007BBF9C;
+			remoteInfo = ServerForWizardGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF51762A18F68FFE007BBF9C /* ServerForWizardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerForWizardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF51762D18F68FFE007BBF9C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF51762F18F68FFE007BBF9C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		CF51763218F68FFE007BBF9C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF51763318F68FFE007BBF9C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF51763418F68FFE007BBF9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF51763718F68FFE007BBF9C /* ServerForWizardGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerForWizardGame-Info.plist"; sourceTree = "<group>"; };
+		CF51763918F68FFE007BBF9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF51763B18F68FFE007BBF9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF51763D18F68FFE007BBF9C /* ServerForWizardGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerForWizardGame-Prefix.pch"; sourceTree = "<group>"; };
+		CF51763F18F68FFE007BBF9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CF51764118F68FFE007BBF9C /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CF51764318F68FFE007BBF9C /* MKMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMyScene.m; sourceTree = "<group>"; };
+		CF51764518F68FFE007BBF9C /* MKMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMyScene.h; sourceTree = "<group>"; };
+		CF51764618F68FFE007BBF9C /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
+		CF51764818F68FFE007BBF9C /* MKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
+		CF51764918F68FFE007BBF9C /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		CF51764B18F68FFE007BBF9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF51765118F68FFE007BBF9C /* ServerForWizardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerForWizardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF51765218F68FFE007BBF9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF51765918F68FFE007BBF9C /* ServerForWizardGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerForWizardGameTests-Info.plist"; sourceTree = "<group>"; };
+		CF51765B18F68FFE007BBF9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF51765D18F68FFE007BBF9C /* ServerForWizardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerForWizardGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF51762718F68FFE007BBF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51763018F68FFE007BBF9C /* SpriteKit.framework in Frameworks */,
+				CF51762E18F68FFE007BBF9C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51764E18F68FFE007BBF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51765418F68FFE007BBF9C /* Cocoa.framework in Frameworks */,
+				CF51765318F68FFE007BBF9C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF51762118F68FFE007BBF9C = {
+			isa = PBXGroup;
+			children = (
+				CF51763518F68FFE007BBF9C /* ServerForWizardGame */,
+				CF51765718F68FFE007BBF9C /* ServerForWizardGameTests */,
+				CF51762C18F68FFE007BBF9C /* Frameworks */,
+				CF51762B18F68FFE007BBF9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF51762B18F68FFE007BBF9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF51762A18F68FFE007BBF9C /* ServerForWizardGame.app */,
+				CF51765118F68FFE007BBF9C /* ServerForWizardGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF51762C18F68FFE007BBF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF51762D18F68FFE007BBF9C /* Cocoa.framework */,
+				CF51762F18F68FFE007BBF9C /* SpriteKit.framework */,
+				CF51765218F68FFE007BBF9C /* XCTest.framework */,
+				CF51763118F68FFE007BBF9C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF51763118F68FFE007BBF9C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF51763218F68FFE007BBF9C /* AppKit.framework */,
+				CF51763318F68FFE007BBF9C /* CoreData.framework */,
+				CF51763418F68FFE007BBF9C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CF51763518F68FFE007BBF9C /* ServerForWizardGame */ = {
+			isa = PBXGroup;
+			children = (
+				CF51764118F68FFE007BBF9C /* MainMenu.xib */,
+				CF51764318F68FFE007BBF9C /* MKMyScene.m */,
+				CF51764518F68FFE007BBF9C /* MKMyScene.h */,
+				CF51764618F68FFE007BBF9C /* MKAppDelegate.m */,
+				CF51764818F68FFE007BBF9C /* MKAppDelegate.h */,
+				CF51764918F68FFE007BBF9C /* Spaceship.png */,
+				CF51764B18F68FFE007BBF9C /* Images.xcassets */,
+				CF51763618F68FFE007BBF9C /* Supporting Files */,
+			);
+			path = ServerForWizardGame;
+			sourceTree = "<group>";
+		};
+		CF51763618F68FFE007BBF9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF51763718F68FFE007BBF9C /* ServerForWizardGame-Info.plist */,
+				CF51763818F68FFE007BBF9C /* InfoPlist.strings */,
+				CF51763B18F68FFE007BBF9C /* main.m */,
+				CF51763D18F68FFE007BBF9C /* ServerForWizardGame-Prefix.pch */,
+				CF51763E18F68FFE007BBF9C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF51765718F68FFE007BBF9C /* ServerForWizardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF51765D18F68FFE007BBF9C /* ServerForWizardGameTests.m */,
+				CF51765818F68FFE007BBF9C /* Supporting Files */,
+			);
+			path = ServerForWizardGameTests;
+			sourceTree = "<group>";
+		};
+		CF51765818F68FFE007BBF9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF51765918F68FFE007BBF9C /* ServerForWizardGameTests-Info.plist */,
+				CF51765A18F68FFE007BBF9C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF51762918F68FFE007BBF9C /* ServerForWizardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF51766118F68FFE007BBF9C /* Build configuration list for PBXNativeTarget "ServerForWizardGame" */;
+			buildPhases = (
+				CF51762618F68FFE007BBF9C /* Sources */,
+				CF51762718F68FFE007BBF9C /* Frameworks */,
+				CF51762818F68FFE007BBF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerForWizardGame;
+			productName = ServerForWizardGame;
+			productReference = CF51762A18F68FFE007BBF9C /* ServerForWizardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF51765018F68FFE007BBF9C /* ServerForWizardGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF51766418F68FFE007BBF9C /* Build configuration list for PBXNativeTarget "ServerForWizardGameTests" */;
+			buildPhases = (
+				CF51764D18F68FFE007BBF9C /* Sources */,
+				CF51764E18F68FFE007BBF9C /* Frameworks */,
+				CF51764F18F68FFE007BBF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF51765618F68FFE007BBF9C /* PBXTargetDependency */,
+			);
+			name = ServerForWizardGameTests;
+			productName = ServerForWizardGameTests;
+			productReference = CF51765118F68FFE007BBF9C /* ServerForWizardGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF51762218F68FFE007BBF9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrey Rychkov";
+				TargetAttributes = {
+					CF51765018F68FFE007BBF9C = {
+						TestTargetID = CF51762918F68FFE007BBF9C;
+					};
+				};
+			};
+			buildConfigurationList = CF51762518F68FFE007BBF9C /* Build configuration list for PBXProject "ServerForWizardGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF51762118F68FFE007BBF9C;
+			productRefGroup = CF51762B18F68FFE007BBF9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF51762918F68FFE007BBF9C /* ServerForWizardGame */,
+				CF51765018F68FFE007BBF9C /* ServerForWizardGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF51762818F68FFE007BBF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51764A18F68FFE007BBF9C /* Spaceship.png in Resources */,
+				CF51764C18F68FFE007BBF9C /* Images.xcassets in Resources */,
+				CF51763A18F68FFE007BBF9C /* InfoPlist.strings in Resources */,
+				CF51764018F68FFE007BBF9C /* Credits.rtf in Resources */,
+				CF51764218F68FFE007BBF9C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51764F18F68FFE007BBF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51765C18F68FFE007BBF9C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF51762618F68FFE007BBF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51764718F68FFE007BBF9C /* MKAppDelegate.m in Sources */,
+				CF51764418F68FFE007BBF9C /* MKMyScene.m in Sources */,
+				CF51763C18F68FFE007BBF9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51764D18F68FFE007BBF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51765E18F68FFE007BBF9C /* ServerForWizardGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF51765618F68FFE007BBF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF51762918F68FFE007BBF9C /* ServerForWizardGame */;
+			targetProxy = CF51765518F68FFE007BBF9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF51763818F68FFE007BBF9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF51763918F68FFE007BBF9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF51763E18F68FFE007BBF9C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF51763F18F68FFE007BBF9C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CF51765A18F68FFE007BBF9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF51765B18F68FFE007BBF9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF51765F18F68FFE007BBF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF51766018F68FFE007BBF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF51766218F68FFE007BBF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerForWizardGame/ServerForWizardGame-Prefix.pch";
+				INFOPLIST_FILE = "ServerForWizardGame/ServerForWizardGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF51766318F68FFE007BBF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerForWizardGame/ServerForWizardGame-Prefix.pch";
+				INFOPLIST_FILE = "ServerForWizardGame/ServerForWizardGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF51766518F68FFE007BBF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerForWizardGame.app/Contents/MacOS/ServerForWizardGame";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerForWizardGame/ServerForWizardGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ServerForWizardGameTests/ServerForWizardGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF51766618F68FFE007BBF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerForWizardGame.app/Contents/MacOS/ServerForWizardGame";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerForWizardGame/ServerForWizardGame-Prefix.pch";
+				INFOPLIST_FILE = "ServerForWizardGameTests/ServerForWizardGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF51762518F68FFE007BBF9C /* Build configuration list for PBXProject "ServerForWizardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51765F18F68FFE007BBF9C /* Debug */,
+				CF51766018F68FFE007BBF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF51766118F68FFE007BBF9C /* Build configuration list for PBXNativeTarget "ServerForWizardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51766218F68FFE007BBF9C /* Debug */,
+				CF51766318F68FFE007BBF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF51766418F68FFE007BBF9C /* Build configuration list for PBXNativeTarget "ServerForWizardGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51766518F68FFE007BBF9C /* Debug */,
+				CF51766618F68FFE007BBF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF51762218F68FFE007BBF9C /* Project object */;
+}

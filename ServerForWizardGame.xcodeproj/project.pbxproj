@@ -13,14 +13,14 @@
 		CF51763C18F68FFE007BBF9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51763B18F68FFE007BBF9C /* main.m */; };
 		CF51764018F68FFE007BBF9C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF51763E18F68FFE007BBF9C /* Credits.rtf */; };
 		CF51764218F68FFE007BBF9C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF51764118F68FFE007BBF9C /* MainMenu.xib */; };
-		CF51764418F68FFE007BBF9C /* MKMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51764318F68FFE007BBF9C /* MKMyScene.m */; };
 		CF51764718F68FFE007BBF9C /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51764618F68FFE007BBF9C /* MKAppDelegate.m */; };
-		CF51764A18F68FFE007BBF9C /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = CF51764918F68FFE007BBF9C /* Spaceship.png */; };
 		CF51764C18F68FFE007BBF9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF51764B18F68FFE007BBF9C /* Images.xcassets */; };
 		CF51765318F68FFE007BBF9C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51765218F68FFE007BBF9C /* XCTest.framework */; };
 		CF51765418F68FFE007BBF9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51762D18F68FFE007BBF9C /* Cocoa.framework */; };
 		CF51765C18F68FFE007BBF9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF51765A18F68FFE007BBF9C /* InfoPlist.strings */; };
 		CF51765E18F68FFE007BBF9C /* ServerForWizardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51765D18F68FFE007BBF9C /* ServerForWizardGameTests.m */; };
+		CF51766918F6904B007BBF9C /* MKServerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51766818F6904B007BBF9C /* MKServerScene.m */; };
+		CF51766C18F69060007BBF9C /* MKServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51766B18F69060007BBF9C /* MKServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,17 +46,18 @@
 		CF51763D18F68FFE007BBF9C /* ServerForWizardGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerForWizardGame-Prefix.pch"; sourceTree = "<group>"; };
 		CF51763F18F68FFE007BBF9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CF51764118F68FFE007BBF9C /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		CF51764318F68FFE007BBF9C /* MKMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMyScene.m; sourceTree = "<group>"; };
-		CF51764518F68FFE007BBF9C /* MKMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMyScene.h; sourceTree = "<group>"; };
 		CF51764618F68FFE007BBF9C /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
 		CF51764818F68FFE007BBF9C /* MKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
-		CF51764918F68FFE007BBF9C /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		CF51764B18F68FFE007BBF9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF51765118F68FFE007BBF9C /* ServerForWizardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerForWizardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF51765218F68FFE007BBF9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CF51765918F68FFE007BBF9C /* ServerForWizardGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerForWizardGameTests-Info.plist"; sourceTree = "<group>"; };
 		CF51765B18F68FFE007BBF9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF51765D18F68FFE007BBF9C /* ServerForWizardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerForWizardGameTests.m; sourceTree = "<group>"; };
+		CF51766718F6904B007BBF9C /* MKServerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKServerScene.h; sourceTree = "<group>"; };
+		CF51766818F6904B007BBF9C /* MKServerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKServerScene.m; sourceTree = "<group>"; };
+		CF51766A18F69060007BBF9C /* MKServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKServer.h; sourceTree = "<group>"; };
+		CF51766B18F69060007BBF9C /* MKServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +125,12 @@
 		CF51763518F68FFE007BBF9C /* ServerForWizardGame */ = {
 			isa = PBXGroup;
 			children = (
-				CF51764118F68FFE007BBF9C /* MainMenu.xib */,
-				CF51764318F68FFE007BBF9C /* MKMyScene.m */,
-				CF51764518F68FFE007BBF9C /* MKMyScene.h */,
+				CF51766A18F69060007BBF9C /* MKServer.h */,
+				CF51766B18F69060007BBF9C /* MKServer.m */,
+				CF51766718F6904B007BBF9C /* MKServerScene.h */,
+				CF51766818F6904B007BBF9C /* MKServerScene.m */,
 				CF51764618F68FFE007BBF9C /* MKAppDelegate.m */,
 				CF51764818F68FFE007BBF9C /* MKAppDelegate.h */,
-				CF51764918F68FFE007BBF9C /* Spaceship.png */,
 				CF51764B18F68FFE007BBF9C /* Images.xcassets */,
 				CF51763618F68FFE007BBF9C /* Supporting Files */,
 			);
@@ -139,6 +140,7 @@
 		CF51763618F68FFE007BBF9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF51764118F68FFE007BBF9C /* MainMenu.xib */,
 				CF51763718F68FFE007BBF9C /* ServerForWizardGame-Info.plist */,
 				CF51763818F68FFE007BBF9C /* InfoPlist.strings */,
 				CF51763B18F68FFE007BBF9C /* main.m */,
@@ -242,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF51764A18F68FFE007BBF9C /* Spaceship.png in Resources */,
 				CF51764C18F68FFE007BBF9C /* Images.xcassets in Resources */,
 				CF51763A18F68FFE007BBF9C /* InfoPlist.strings in Resources */,
 				CF51764018F68FFE007BBF9C /* Credits.rtf in Resources */,
@@ -265,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF51766C18F69060007BBF9C /* MKServer.m in Sources */,
 				CF51764718F68FFE007BBF9C /* MKAppDelegate.m in Sources */,
-				CF51764418F68FFE007BBF9C /* MKMyScene.m in Sources */,
 				CF51763C18F68FFE007BBF9C /* main.m in Sources */,
+				CF51766918F6904B007BBF9C /* MKServerScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

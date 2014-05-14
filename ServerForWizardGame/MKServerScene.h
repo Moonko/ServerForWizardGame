@@ -16,4 +16,6 @@
 
 @property (nonatomic) SKLabelNode *label;
 
+- (id)initWithSize:(CGSize)size server:(MKServer *)server;
+
 @end

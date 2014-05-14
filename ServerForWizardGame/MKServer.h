@@ -16,15 +16,18 @@
 
 @property (nonatomic) int client1;
 @property (nonatomic) int client2;
+@property (nonatomic) int clients;
 @property (nonatomic) int listener;
-@property (nonatomic) BOOL isConnected;
+@property (nonatomic) BOOL canStartGame;
 @property (nonatomic) BOOL shouldStop;
 
 @property (nonatomic) int firstClientSkill;
 @property (nonatomic) int secondClientSkill;
 
+@property (nonatomic, weak) SKLabelNode *label;
+
 - (void)setUp:(SKLabelNode *)label;
 
-- (void)stop:(SKLabelNode *)label;
+- (void)stop;
 
 @end

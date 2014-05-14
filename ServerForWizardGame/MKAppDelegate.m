@@ -8,6 +8,7 @@
 
 #import "MKAppDelegate.h"
 #import "MKServerScene.h"
+#import "MKServer.h"
 
 @implementation MKAppDelegate
 
@@ -15,8 +16,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    _server = [[MKServer alloc] init];
     /* Pick a size for the scene */
-    SKScene *scene = [MKServerScene sceneWithSize:CGSizeMake(1024, 768)];
+    SKScene *scene = [[MKServerScene alloc] initWithSize:CGSizeMake(1024, 768)
+                                                  server:_server];
 
     /* Set the scale mode to scale to fit the window */
     scene.scaleMode = SKSceneScaleModeAspectFit;
@@ -30,6 +33,11 @@
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
 {
     return YES;
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification
+{
+    [_server stop];
 }
 
 @end

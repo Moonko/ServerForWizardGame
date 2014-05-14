@@ -11,17 +11,17 @@
 
 @implementation MKServerScene
 
-- (id)initWithSize:(CGSize)size
+- (id)initWithSize:(CGSize)size server:(MKServer *)server
 {
     if (self == [super initWithSize:size])
     {
-        _server = [[MKServer alloc] init];
+        _server = server;
         
         _label = [SKLabelNode labelNodeWithFontNamed:@"Chulkduster"];
-        _label.text = @"Waiting for clients... 0/2";
         _label.fontSize = 50;
         _label.position = CGPointMake(CGRectGetMidX(self.frame),
                                       CGRectGetMidY(self.frame));
+        _label.text = [NSString stringWithFormat:@"Waiting for clients... %d/2", _server.clients];
         [self addChild:_label];
         
         NSThread *setUp = [[NSThread alloc] initWithTarget:_server

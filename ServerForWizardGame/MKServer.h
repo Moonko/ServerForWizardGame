@@ -18,8 +18,8 @@
 @property (nonatomic) int client2;
 @property (nonatomic) int clients;
 @property (nonatomic) int listener;
-@property (nonatomic) BOOL canStartGame;
 @property (nonatomic) BOOL shouldStop;
+@property (nonatomic) struct sockaddr_in addr1;
 
 @property (nonatomic) int firstClientSkill;
 @property (nonatomic) int secondClientSkill;
